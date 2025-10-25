@@ -1,0 +1,29 @@
+.card{
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgb(38, 236, 223, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h1 {
+    color: white;
+    font-family: 'Impact';
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}

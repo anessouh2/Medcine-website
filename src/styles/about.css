@@ -1,0 +1,109 @@
+
+.about-us-section{
+    min-height: 95vh;
+    position: relative;
+    padding: 2rem 1rem;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.line{
+    height: 4px;
+    width: 10%;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+.about-us h1{
+    font-family: 'Impact';
+    font-size: clamp(2.5rem, 8vw, 5rem); 
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.description{
+    color: white; 
+    font-family: 'Instrument Sans';
+    font-size: clamp(1rem, 3vw, 1.5rem); 
+    width: 100%;
+    line-height: 1.6;
+    padding: 0 1rem;
+    max-width: 100%;
+}
+
+.vert {
+    color: #000000; 
+    padding-left: 9px;
+}
+
+.big-span{
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .about-us-section {
+        padding: 3rem 2rem;
+    }
+    
+    .about-us {
+        margin-left: 2rem;
+        width: 60%;
+        justify-content: flex-start;
+    }
+    
+    .description {
+        padding-left: 2rem;
+        font-size: clamp(1.2rem, 3.5vw, 1.8rem);
+    }
+    
+    .about-us h1 {
+        font-size: clamp(3rem, 9vw, 6rem);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .about-us-section {
+        padding: 4rem 3rem;
+    }
+    
+    .about-us {
+        margin-left: 4rem;
+        width: 50%;
+    }
+    
+    .description {
+        padding-left: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .about-us h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .about-us {
+        margin-left: 6rem;
+    }
+    
+    .description {
+        padding-left: 6rem;
+        font-size: 1.8rem;
+    }
+    
+    .about-us h1 {
+        font-size: 6rem;
+    }
+}
