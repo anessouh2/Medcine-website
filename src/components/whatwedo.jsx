@@ -13,7 +13,7 @@ export default function Whatwedo() {
   ]
   return (
     <section className="whatwedo">
-      <div className="title">
+      <div className="title" data-aos = 'fade-right' data-aos-duration='1000'>
         <div className="tri"></div>
         <h1>WHAT WE DO </h1>
         <div className="tri"></div>
